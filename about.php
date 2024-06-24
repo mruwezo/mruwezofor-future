@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  
+        <style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                background-color: black;
+            }
+            .menu-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 32px;
+            text-align: center;
+            
+        }
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+       
+        .menu-bar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .menu-bar .icons img {
+            margin-right: 30px;
+            cursor: pointer;
+        }
+        
+        .input{
+            width: 400px;
+            box-shadow: none;
+            border-radius: 10px;
+
+        }
+        label{
+            text-align: left;
+        }
+        textarea{
+            width: 450px;
+        }
+        .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+        </style>
+    </head>
+
+<body>
+<div class="menu-bar">
+<a class="navbar-brand" href="#">
+<img src="image/bara.jpg" class="rounded-circle" alt="Cinque Terre" width="40px" > 
+</a>
+    <div>
+        <a href="home.php">Home</a>
+        <a href="about.php">About Me</a>
+        <a href="service.php">Services</a>
+        <a href="member.php">Member</a>
+        <a href="contact.php">Contact Me</a>
+    </div>
+
+
+
+  
+    
+    <li class="nav-item dropdown">
+    <a href="#"><i class="glyphicon glyphicon-user"></i></a>
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+    
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="profile" style="color:black">Pofile</a>
+        <a class="dropdown-item" href="edit.php" style="color:black">Edit</a>
+        <a class="dropdown-item" href="logout.php" style="color:black">Logout</a>
+      </div>
+    </li>
+</div>
+</div>
+<>
+<div class="container">
+  <h2 style="color:white">About me</h2>
+  <p style="COLOR:White">know me more!</p>
+  <div class="card-group" style="width:1300px;">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="image/bara.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title"><b>NAME:</b>BARAKA DEUS MARONGORI</h4>
+      <h4 class="card-title"><b>NICKNAME:</b> MR UWEZO FOR FUTURE</h4>
+      <h4 class="card-title"><b>TITLE:</b> IT SPECIALIST (INFORMATION TECHNOLOGY)</h4>
+      <p class="card-text">Baraka Marongori is an accomplished IT specialist with a rich background 
+        in various aspects of technology. He has built a reputation for excellence in web design,
+         web application development, graphic design, and computer maintenance and repair.
+          With a strong foundation in computer 
+        science and years of hands-on experience, Baraka has 
+        honed his skills to provide top-tier IT solutions.</p>
+
+  <a href="pro.php" style="='background-color:blue">See Profile</a>
+
+
+
+
+    </div>
+  </div>
+  
+    <div class="card bg-primary">
+      <div class="card-body text-left">
+        <h4 class="card-text">
+        <b>Baraka Marongori: IT Specialist</b><br>
+Baraka Marongori is a skilled IT specialist with a wealth of experience in the technology sector. He excels in various IT disciplines, providing comprehensive solutions that cater to a wide range of business needs. Here’s a brief overview of his expertise:
+<br>
+1. Web Design and Development<br>
+Baraka creates visually stunning, responsive websites and robust web applications using the latest technologies and frameworks. His designs are user-friendly and tailored to enhance the online presence and functionality of businesses.
+<br>
+2. Graphics and Logo Design><br>
+With a keen eye for detail and creativity, Baraka produces high-quality graphic designs and unique logos. His work effectively communicates brand messages and ensures businesses stand out in the competitive market.
+<br>
+3. Computer Maintenance and Repair<br>
+Baraka offers reliable computer maintenance and repair services, ensuring optimal performance and longevity of IT assets. His services include hardware diagnostics, software troubleshooting, and regular maintenance.
+<br>
+Baraka Marongori is dedicated to delivering top-notch IT solutions, leveraging his expertise to help businesses achieve their technological goals and enhance their overall efficiency and productivity.
+        </h4>
+        <img src="image/cc.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
+      </div>
+    </div>
+    <div class="card bg-warning">
+      <div class="card-body text-left">
+        <h4 class="card-text">
+          Baraka Marongori: IT Specialist
+Baraka Marongori is a skilled IT specialist with a wealth of experience in the technology sector. He excels in various IT disciplines, providing comprehensive solutions that cater to a wide range of business needs. Here’s a brief overview of his expertise:
+
+1. Web Design and Development
+Baraka creates visually stunning, responsive websites and robust web applications using the latest technologies and frameworks. His designs are user-friendly and tailored to enhance the online presence and functionality of businesses.
+
+2. Graphics and Logo Design
+With a keen eye for detail and creativity, Baraka produces high-quality graphic designs and unique logos. His work effectively communicates brand messages and ensures businesses stand out in the competitive market.
+
+3. Computer Maintenance and Repair
+Baraka offers reliable computer maintenance and repair services, ensuring optimal performance and longevity of IT assets. His services include hardware diagnostics, software troubleshooting, and regular maintenance.
+
+Baraka Marongori is dedicated to delivering top-notch IT solutions, leveraging his expertise to help businesses achieve their technological goals and enhance their overall efficiency and productivity.</>
+      
+<video width="400" controls>
+  <source src="image/ba.mp4" type="video/mp4">
+  <source src="image/ba.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+  </video>
+
+</div>
+    </div>
+    
+</div>
+<br><br>
+<div class="card bg-warning" style="width: 1300px;">
+      <div class="card-body text-left">
+<h4 class="card-text" style="color:black"><b>Background of Baraka Marongori</b><br>
+    Baraka Marongori is an accomplished IT specialist with a rich background in various 
+    aspects of technology. He has built a reputation for excellence in web design, 
+    web application development, graphic design, and computer maintenance and repair. 
+    With a strong foundation in computer science and years of hands-on experience, 
+    Baraka has honed his skills to provide top-tier IT solutions.
+
+Baraka's journey began with a passion for technology, 
+leading him to pursue formal education in computer science. Throughout his career,
+ he has continuously updated his knowledge and skills to stay at the forefront of technological advancements. 
+ His commitment to quality and innovation has made him a trusted name in the IT industry.
+
+Known for his creative problem-solving abilities and attention to detail, 
+Baraka has successfully completed numerous projects for a diverse clientele.
+ His work is characterized by a deep understanding of client needs and a dedication to delivering exceptional results.
+
+Baraka Marongori's expertise, combined with his unwavering dedication to client satisfaction, 
+makes him a valuable asset in the field of information technology.
+</h4>
+</div>
+</div>
+
+<div class="card bg-danger">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the fourth card</p>
+      </div>
+    </div>  
+  </div>
+  <div class="jumbotron text-center" style="margin-bottom:0; background-color: white;">
+  <a class="navbar-brand" href="#">
+<img src="image/bara.jpg" class="rounded-circle" alt="Cinque Terre" width="40px" > 
+</a>
+<p>Powered by Mr uwezo For Future //@copyright 2024</p>
+</div>
+</body>
+</html>
